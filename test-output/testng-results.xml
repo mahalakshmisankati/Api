@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18231" started-at="2019-10-16T03:42:03Z" finished-at="2019-10-16T03:42:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18231" started-at="2019-10-16T03:42:03Z" finished-at="2019-10-16T03:42:21Z">
+      <class name="APIAutomation.Retweet">
+        <test-method status="PASS" signature="tweet()[pri:0, instance:APIAutomation.Retweet@10bbd20a]" name="tweet" duration-ms="18149" started-at="2019-10-16T03:42:03Z" finished-at="2019-10-16T03:42:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tweet -->
+      </class> <!-- APIAutomation.Retweet -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

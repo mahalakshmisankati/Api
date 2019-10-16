@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/kotlin-extensions-4.1.1-dist/kotlin-extensions-4.1.1-deps/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/kotlin-extensions-4.1.1-dist/kotlin-extensions-4.1.1-deps/annotations-13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/kotlin-extensions-4.1.1-dist/kotlin-extensions-4.1.1-deps/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/kotlin-extensions-4.1.1-dist/kotlin-extensions-4.1.1-deps/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/kotlin-extensions-4.1.1-dist/kotlin-extensions-4.1.1-deps/jaxb-osgi-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/kotlin-extensions-4.1.1-dist/kotlin-extensions-4.1.1-deps/kotlin-stdlib-1.3.50.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/kotlin-extensions-4.1.1-dist/kotlin-extensions-4.1.1-deps/kotlin-stdlib-common-1.3.50.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/kotlin-extensions-4.1.1-dist/kotlin-extensions-4.1.1-deps/kotlin-stdlib-jdk7-1.3.50.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/kotlin-extensions-4.1.1-dist/kotlin-extensions-4.1.1-deps/org.apache.sling.javax.activation-0.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/kotlin-extensions-4.1.1-dist/kotlin-extensions-4.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/docs/json-path-4.1.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/docs/json-path-4.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/docs/rest-assured-4.1.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/docs/rest-assured-4.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/docs/rest-assured-common-4.1.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/docs/rest-assured-common-4.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/docs/xml-path-4.1.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/docs/xml-path-4.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/groovy-2.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/groovy-json-2.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/groovy-xml-2.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/hamcrest-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/jaxb-osgi-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/org.apache.sling.javax.activation-0.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/rest-assured-4.1.1-dist/rest-assured-4.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/scala-support-4.1.1-dist/scala-support-4.1.1-deps/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/scala-support-4.1.1-dist/scala-support-4.1.1-deps/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/scala-support-4.1.1-dist/scala-support-4.1.1-deps/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/scala-support-4.1.1-dist/scala-support-4.1.1-deps/jaxb-osgi-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/scala-support-4.1.1-dist/scala-support-4.1.1-deps/org.apache.sling.javax.activation-0.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/scala-support-4.1.1-dist/scala-support-4.1.1-deps/scala-library-2.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/scala-support-4.1.1-dist/scala-support-4.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-mock-mvc-4.1.1-dist/spring-mock-mvc-4.1.1-deps/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-mock-mvc-4.1.1-dist/spring-mock-mvc-4.1.1-deps/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-mock-mvc-4.1.1-dist/spring-mock-mvc-4.1.1-deps/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-mock-mvc-4.1.1-dist/spring-mock-mvc-4.1.1-deps/jaxb-osgi-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-mock-mvc-4.1.1-dist/spring-mock-mvc-4.1.1-deps/org.apache.sling.javax.activation-0.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-mock-mvc-4.1.1-dist/spring-mock-mvc-4.1.1-deps/spring-aop-4.3.23.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-mock-mvc-4.1.1-dist/spring-mock-mvc-4.1.1-deps/spring-beans-4.3.23.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-mock-mvc-4.1.1-dist/spring-mock-mvc-4.1.1-deps/spring-commons-4.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-mock-mvc-4.1.1-dist/spring-mock-mvc-4.1.1-deps/spring-context-4.3.23.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-mock-mvc-4.1.1-dist/spring-mock-mvc-4.1.1-deps/spring-core-4.3.23.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-mock-mvc-4.1.1-dist/spring-mock-mvc-4.1.1-deps/spring-expression-4.3.23.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-mock-mvc-4.1.1-dist/spring-mock-mvc-4.1.1-deps/spring-test-4.3.23.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-mock-mvc-4.1.1-dist/spring-mock-mvc-4.1.1-deps/spring-web-4.3.23.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-mock-mvc-4.1.1-dist/spring-mock-mvc-4.1.1-deps/spring-webmvc-4.3.23.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-mock-mvc-4.1.1-dist/spring-mock-mvc-4.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-web-test-client-4.1.1-dist/spring-web-test-client-4.1.1-deps/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-web-test-client-4.1.1-dist/spring-web-test-client-4.1.1-deps/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-web-test-client-4.1.1-dist/spring-web-test-client-4.1.1-deps/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-web-test-client-4.1.1-dist/spring-web-test-client-4.1.1-deps/jaxb-osgi-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-web-test-client-4.1.1-dist/spring-web-test-client-4.1.1-deps/org.apache.sling.javax.activation-0.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-web-test-client-4.1.1-dist/spring-web-test-client-4.1.1-deps/reactive-streams-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-web-test-client-4.1.1-dist/spring-web-test-client-4.1.1-deps/reactor-core-3.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-web-test-client-4.1.1-dist/spring-web-test-client-4.1.1-deps/spring-aop-5.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-web-test-client-4.1.1-dist/spring-web-test-client-4.1.1-deps/spring-beans-5.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-web-test-client-4.1.1-dist/spring-web-test-client-4.1.1-deps/spring-commons-4.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-web-test-client-4.1.1-dist/spring-web-test-client-4.1.1-deps/spring-context-5.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-web-test-client-4.1.1-dist/spring-web-test-client-4.1.1-deps/spring-core-5.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-web-test-client-4.1.1-dist/spring-web-test-client-4.1.1-deps/spring-expression-5.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-web-test-client-4.1.1-dist/spring-web-test-client-4.1.1-deps/spring-jcl-5.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-web-test-client-4.1.1-dist/spring-web-test-client-4.1.1-deps/spring-test-5.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-web-test-client-4.1.1-dist/spring-web-test-client-4.1.1-deps/spring-web-5.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-web-test-client-4.1.1-dist/spring-web-test-client-4.1.1-deps/spring-webflux-5.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/spring-web-test-client-4.1.1-dist/spring-web-test-client-4.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/xml-path-4.1.1-dist/docs/rest-assured-common-4.1.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/xml-path-4.1.1-dist/docs/rest-assured-common-4.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/xml-path-4.1.1-dist/docs/xml-path-4.1.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/xml-path-4.1.1-dist/docs/xml-path-4.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/xml-path-4.1.1-dist/xml-path-4.1.1-deps/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/xml-path-4.1.1-dist/xml-path-4.1.1-deps/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/xml-path-4.1.1-dist/xml-path-4.1.1-deps/groovy-2.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/xml-path-4.1.1-dist/xml-path-4.1.1-deps/groovy-xml-2.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/xml-path-4.1.1-dist/xml-path-4.1.1-deps/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/xml-path-4.1.1-dist/xml-path-4.1.1-deps/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/xml-path-4.1.1-dist/xml-path-4.1.1-deps/jaxb-osgi-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/xml-path-4.1.1-dist/xml-path-4.1.1-deps/org.apache.sling.javax.activation-0.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/xml-path-4.1.1-dist/xml-path-4.1.1-deps/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/xml-path-4.1.1-dist/xml-path-4.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Desktop/api jars/testng-6.14.3.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/selenium-java-3.141.59/libs/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/selenium-java-3.141.59/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/selenium-java-3.141.59/libs/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/selenium-java-3.141.59/libs/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/selenium-java-3.141.59/libs/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/selenium-java-3.141.59/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/selenium-java-3.141.59/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-path-4.1.1-dist.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-path-4.1.1-dist/json-path-4.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-path-4.1.1-dist/docs/json-path-4.1.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-path-4.1.1-dist/docs/json-path-4.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-path-4.1.1-dist/docs/rest-assured-common-4.1.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-path-4.1.1-dist/docs/rest-assured-common-4.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-path-4.1.1-dist/json-path-4.1.1-deps/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-path-4.1.1-dist/json-path-4.1.1-deps/groovy-2.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-path-4.1.1-dist/json-path-4.1.1-deps/groovy-json-2.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist/json-schema-validator-4.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist/docs/json-schema-validator-4.1.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist/docs/json-schema-validator-4.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist/json-schema-validator-4.1.1-deps/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist/json-schema-validator-4.1.1-deps/btf-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist/json-schema-validator-4.1.1-deps/guava-16.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist/json-schema-validator-4.1.1-deps/hamcrest-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist/json-schema-validator-4.1.1-deps/jackson-annotations-2.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist/json-schema-validator-4.1.1-deps/jackson-core-2.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist/json-schema-validator-4.1.1-deps/jackson-coreutils-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist/json-schema-validator-4.1.1-deps/jackson-databind-2.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist/json-schema-validator-4.1.1-deps/joda-time-2.9.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist/json-schema-validator-4.1.1-deps/jopt-simple-5.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist/json-schema-validator-4.1.1-deps/json-schema-core-1.2.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist/json-schema-validator-4.1.1-deps/json-schema-validator-2.2.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist/json-schema-validator-4.1.1-deps/jsr305-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist/json-schema-validator-4.1.1-deps/libphonenumber-8.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist/json-schema-validator-4.1.1-deps/mailapi-1.4.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist/json-schema-validator-4.1.1-deps/msg-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist/json-schema-validator-4.1.1-deps/rhino-1.7.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/json-schema-validator-4.1.1-dist/json-schema-validator-4.1.1-deps/uri-template-0.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/rest-assured-4.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/docs/json-path-4.1.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/docs/json-path-4.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/docs/rest-assured-4.1.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/docs/rest-assured-4.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/docs/rest-assured-common-4.1.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/docs/rest-assured-common-4.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/docs/xml-path-4.1.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/docs/xml-path-4.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/groovy-2.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/groovy-json-2.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/groovy-xml-2.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/hamcrest-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/jaxb-osgi-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/org.apache.sling.javax.activation-0.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/scribejava-apis-2.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/scribejava-core-2.5.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
