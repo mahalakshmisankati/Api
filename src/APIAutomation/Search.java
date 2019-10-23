@@ -4,7 +4,8 @@ package APIAutomation;
 	import org.testng.annotations.Test;
 
 	import io.restassured.RestAssured;
-	import io.restassured.response.Response;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
 
 	import static io.restassured.RestAssured.given;
 
@@ -25,12 +26,24 @@ package APIAutomation;
 			 .when().get("/tweets.json").then().extract().response();
 				String response=res.asString();
 				System.out.println(response);
-				//System.out.println(response);
-				/*JsonPath js=new JsonPath(response);
-				String id=js.get("id").toString();
-				System.out.println(id);*/
+				
 							
 	}
+@Test
+			
+			public void tweet() {
+				
+				
+				RestAssured.baseURI="https://api.twitter.com/1.1/statuses/";
+			Response res= given().auth().oauth(ConsumerKey, ConsumerSecret, Token, TokenSecret).
+			 
+			 when().get("home_timeline.json").then().extract().response();
+				String str=res.asString();
+				System.out.println(str);
+				JsonPath js=new JsonPath(str);
+				String text=js.get("text").toString();
+				System.out.println(text);
+				}
 	}
 
 

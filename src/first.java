@@ -1,7 +1,6 @@
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
-import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
 import org.testng.annotations.Test;
@@ -12,7 +11,7 @@ public class first {
 	@Test
 	public void APITest() {
 		RestAssured.baseURI="https://reqres.in";
-	 ((RestAssured) given()). 
+	 RestAssured. 
 		      
 		    when().
 		    get("api/users").
@@ -27,11 +26,6 @@ public class first {
 		
 		
 
-	}
-
-	private static Object given() {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 }
