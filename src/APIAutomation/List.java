@@ -7,6 +7,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.testng.annotations.Test;
 
 import Files.Payload;
@@ -16,6 +18,7 @@ import io.restassured.response.Response;
 public class List {
 
 	Properties prop;
+	Logger l=Logger.getLogger("List");
 
 	@Test
 	public void searchTweet() throws IOException
@@ -24,6 +27,7 @@ public class List {
 		Payload p = new Payload();
 		
 		prop = new Properties();
+		PropertyConfigurator.configure("C:\\ag\\APIAutomation\\src\\Files\\log4j.properties");
 		FileInputStream fis = new FileInputStream("C:\\ag\\APIAutomation\\src\\data.properties");
 		prop.load(fis);
 		
@@ -35,9 +39,9 @@ public class List {
 		then().assertThat().statusCode(200).and().contentType(ContentType.JSON).
 		extract().response();
 		
-		System.out.println(p.getUsers());
+		l.info(p.getUsers());
 		String response = res.asString();
-		System.out.println(response);
+		l.info(response);
 		
 	
 }

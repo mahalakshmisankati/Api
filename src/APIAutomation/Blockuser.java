@@ -1,4 +1,4 @@
-package APIAutomation;
+ package APIAutomation;
 
 
 	import static io.restassured.RestAssured.given;
@@ -7,7 +7,9 @@ package APIAutomation;
 	import java.io.IOException;
 	import java.util.Properties;
 
-	import org.testng.annotations.Test;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.testng.annotations.Test;
 
 	import Files.Payload;
 	import io.restassured.RestAssured;
@@ -18,6 +20,7 @@ package APIAutomation;
 	public class Blockuser {
 
 		Properties prop;
+		Logger l=Logger.getLogger("Blockuser");
 
 		@Test
 		public void searchTweet() throws IOException
@@ -25,7 +28,8 @@ package APIAutomation;
 			Payload p = new Payload();
 			
 			prop = new Properties();
-			FileInputStream fis = new FileInputStream("C:\\\\ag\\\\APIAutomation\\\\src\\\\data.properties");
+			PropertyConfigurator.configure("C:\\ag\\APIAutomation\\src\\Files\\log4j.properties");
+			FileInputStream fis = new FileInputStream("C:\\ag\\APIAutomation\\src\\data.properties");
 			prop.load(fis);
 			
 			RestAssured.baseURI = "https://api.twitter.com/1.1/blocks";
@@ -37,12 +41,14 @@ package APIAutomation;
 			extract().response();
 			
 			String response = res.asString();
+			l.info(response);
 			System.out.println(response);
 			
 			JsonPath js = new JsonPath(response);
 			String user = js.get("name").toString();
 			
-			System.out.println("Blocked user is : "+user);
+			
+			l.info("Blocked user is : "+user);
 		}
 	}
 

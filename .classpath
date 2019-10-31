@@ -160,5 +160,9 @@
 	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/rest-assured-4.1.1-dist/rest-assured-4.1.1-deps/tagsoup-1.2.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/scribejava-apis-2.5.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/scribejava-core-2.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/.m2/repository/log4j/log4j/1.2.12/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/apache-jmeter-4.0/apache-jmeter-4.0/lib/log4j-core-2.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/apache-jmeter-4.0/apache-jmeter-4.0/lib/log4j-api-2.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/apache-jmeter-4.0/apache-jmeter-4.0/lib/log4j-1.2-api-2.10.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

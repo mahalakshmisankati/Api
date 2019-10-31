@@ -29,16 +29,16 @@ public class Payload {
 		extract().response();
 		
 		String response = res.asString();
-		//System.out.println(response);
+		
 		
 		JsonPath js = new JsonPath(response);
 		int count = js.get("size()");
-		//System.out.println(count);
+		
 		
 		for(int i=0;i<count;i++)
 		{
 			String User = js.get("["+i+"].screen_name");
-			//System.out.println(User);
+			
 			if(User.equalsIgnoreCase(prop.getProperty("User")))
 			{
 				return User;

@@ -6,6 +6,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
@@ -16,12 +18,14 @@ import io.restassured.response.Response;
 public class Tags {
 
 	Properties prop;
+	Logger l=Logger.getLogger("Tags");
 
 	@Test
 	public void DisplayHashtag() throws IOException
 	{
 
 		prop = new Properties();
+		PropertyConfigurator.configure("C:\\ag\\APIAutomation\\src\\Files\\log4j.properties");
 		FileInputStream fis = new FileInputStream("C:\\\\ag\\\\APIAutomation\\\\src\\\\data.properties");
 		prop.load(fis);
 		
@@ -32,7 +36,7 @@ public class Tags {
 		extract().response();
 		
 		String response=res.asString();
-		//System.out.println(response);
+		
 		JsonPath js=new JsonPath(response);
 		int count=js.get("size()");
 		for(int i=0;i<count;i++)
@@ -48,7 +52,7 @@ public class Tags {
 						extract().response();
 						
 						String response1=res1.asString();
-						//System.out.println(response1);
+						
 						JsonPath js1=new JsonPath(response1);
 						int count1=js1.get("["+0+"].trends.size()");
 						for(int j=0;j<count1;j++)
@@ -57,7 +61,7 @@ public class Tags {
 							String actual = js1.getString("["+0+"].trends["+j+"]");
 							if(Hashtag.charAt(0)=='#' && j<=5)
 							{
-								System.out.println(actual);
+								l.info(actual);
 							}
 						}
 						break;

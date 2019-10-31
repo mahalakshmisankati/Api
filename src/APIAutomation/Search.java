@@ -1,7 +1,9 @@
 package APIAutomation;
 
 
-	import org.testng.annotations.Test;
+	import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.testng.annotations.Test;
 
 	import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
@@ -9,40 +11,52 @@ import io.restassured.response.Response;
 
 	import static io.restassured.RestAssured.given;
 
-	public class Search {
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
 
-		String ConsumerKey="2Xtd4ILUtinfACHehAvCNcbjW";
-		String ConsumerSecret="pIHDmJy9fgKlLVuAgG4AuP5rRkaOy6TtWqxLqjVeJ2MywdcGJp";
-		String Token="839104214-h1Kaf8iJW2FAyXzNCZNicI1a4Xb8BMw7ZkFKGzmJ";
-		String TokenSecret="PTvXawkmrK3EZWeLSSmqtD7hisogRC3nqG48FYzNcLfQy";
-			
-			
+	public class Search {
+		Properties prop;
+		Logger l=Logger.getLogger("Search");
+
+		
 
 			@Test
-			public void searchTweet() {
+			public void searchTweet() throws IOException {
+				prop = new Properties();
+				PropertyConfigurator.configure("C:\\ag\\APIAutomation\\src\\Files\\log4j.properties");
+				FileInputStream fis = new FileInputStream("C:\\ag\\APIAutomation\\src\\data.properties");
+				prop.load(fis);
+			
 				RestAssured.baseURI="https://api.twitter.com/1.1/search/";
-			Response res= given().auth().oauth(ConsumerKey, ConsumerSecret, Token, TokenSecret).
+			
+					Response res = given().auth().oauth(prop.getProperty("ConsumerKey"),prop.getProperty("ConsumerSecret"),prop.getProperty("Token"),prop.getProperty("TokenSecret")).
 			 queryParam("q","Qualitest")
 			 .when().get("/tweets.json").then().extract().response();
 				String response=res.asString();
-				System.out.println(response);
+				l.info(response);
 				
 							
 	}
-@Test
+            @Test
 			
-			public void tweet() {
+			public void tweet() throws IOException {
+	prop = new Properties();
+	FileInputStream fis = new FileInputStream("C:\\ag\\APIAutomation\\src\\data.properties");
+	prop.load(fis);
+
 				
 				
 				RestAssured.baseURI="https://api.twitter.com/1.1/statuses/";
-			Response res= given().auth().oauth(ConsumerKey, ConsumerSecret, Token, TokenSecret).
+			
+					Response res = given().auth().oauth(prop.getProperty("ConsumerKey"),prop.getProperty("ConsumerSecret"),prop.getProperty("Token"),prop.getProperty("TokenSecret")).
 			 
 			 when().get("home_timeline.json").then().extract().response();
 				String str=res.asString();
-				System.out.println(str);
+				l.info(str);
 				JsonPath js=new JsonPath(str);
 				String text=js.get("text").toString();
-				System.out.println(text);
+				l.info(text);
 				}
 	}
 

@@ -7,7 +7,9 @@ package APIAutomation;
 	import java.io.IOException;
 	import java.util.Properties;
 
-	import org.testng.annotations.Test;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.testng.annotations.Test;
 
 	import io.restassured.RestAssured;
 	import io.restassured.http.ContentType;
@@ -17,11 +19,13 @@ package APIAutomation;
 	public class Weather {
 
 		Properties prop;
+		Logger l=Logger.getLogger("Weather");
 
 		@Test
 		public void weatherTweet() throws IOException
 		{
 			prop = new Properties();
+			PropertyConfigurator.configure("C:\\ag\\APIAutomation\\src\\Files\\log4j.properties");
 			FileInputStream fis = new FileInputStream("C:\\ag\\APIAutomation\\src\\data.properties");
 			prop.load(fis);
 			
@@ -34,11 +38,11 @@ package APIAutomation;
 			extract().response();
 			
 			String response = res.asString();
-			//System.out.println(response);
+			
 			
 			JsonPath js = new JsonPath(response);
 			int count = js.get("statuses.size()");
-			//System.out.println(count);
+			
 			
 			String resp;
 			for(int i=0;i<count;i++)
@@ -47,7 +51,7 @@ package APIAutomation;
 				if(place.contains("Bengaluru")||place.contains("Bangalore"))
 				{
 					resp = js.get("statuses["+i+"]").toString();
-					System.out.println(resp);
+					l.info(resp);
 				}
 			}
 		}

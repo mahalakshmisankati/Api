@@ -7,7 +7,9 @@ package APIAutomation;
 	import java.io.IOException;
 	import java.util.Properties;
 
-	import org.testng.annotations.Test;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.testng.annotations.Test;
 
 	import io.restassured.RestAssured;
 	import io.restassured.http.ContentType;
@@ -17,11 +19,13 @@ package APIAutomation;
 	public class Username {
 
 		Properties prop;
+		Logger l=Logger.getLogger("Username");
 
 		@Test
 		public void searchTweet() throws IOException
 		{
 			prop = new Properties();
+			PropertyConfigurator.configure("C:\\ag\\APIAutomation\\src\\Files\\log4j.properties");
 			FileInputStream fis = new FileInputStream("C:\\ag\\APIAutomation\\src\\data.properties");
 			prop.load(fis);
 			
@@ -38,12 +42,12 @@ package APIAutomation;
 			
 			JsonPath js = new JsonPath(response);
 			int count = js.get("statuses.size()");
-			System.out.println(count);
+			l.info(count);
 			
 			for(int i=0;i<count;i++)
 			{
 				String UserName = js.get("statuses["+i+"].user.screen_name");
-				System.out.println(UserName);
+				l.info(UserName);
 			}
 		}
 	}

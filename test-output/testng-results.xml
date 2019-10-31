@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13405" started-at="2019-10-23T11:46:23Z" finished-at="2019-10-23T11:46:36Z">
+  <suite name="Default suite" duration-ms="5807" started-at="2019-10-29T11:02:29Z" finished-at="2019-10-29T11:02:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13405" started-at="2019-10-23T11:46:23Z" finished-at="2019-10-23T11:46:36Z">
-      <class name="APIAutomation.Tags">
-        <test-method status="PASS" signature="DisplayHashtag()[pri:0, instance:APIAutomation.Tags@10bbd20a]" name="DisplayHashtag" duration-ms="13321" started-at="2019-10-23T11:46:23Z" finished-at="2019-10-23T11:46:36Z">
+    <test name="Default test" duration-ms="5807" started-at="2019-10-29T11:02:29Z" finished-at="2019-10-29T11:02:35Z">
+      <class name="APIAutomation.Post">
+        <test-method status="PASS" signature="creatTweet()[pri:0, instance:APIAutomation.Post@3043fe0e]" name="creatTweet" duration-ms="5759" started-at="2019-10-29T11:02:29Z" finished-at="2019-10-29T11:02:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DisplayHashtag -->
-      </class> <!-- APIAutomation.Tags -->
+        </test-method> <!-- creatTweet -->
+      </class> <!-- APIAutomation.Post -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
